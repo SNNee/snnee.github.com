@@ -1,0 +1,140 @@
+body{
+    /* background-image: url(../image/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 30%; */
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+    list-style: none;
+}
+
+.box {
+    border: 10px solid #f6f6f6;
+    width: 364px;
+    height: 540px;
+}
+
+div {
+    display: block;
+}
+
+.information {
+    height: 70px;
+}
+.information>li {
+    float: left;
+    padding-top: 10px;
+    padding-left: 36px;
+    padding-right: 6px;
+}
+.information>li>label {
+    display: block;
+    padding-left: 16px;
+    font-size: 17px;
+    color: #f44700;
+}
+.information>li>span {
+    font-size: 14px;
+}
+
+.message {
+    height: 30px;
+    background-color: #ffe5dc;
+}
+.message>span {
+    display: block;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    color: #fa4e0c;
+}
+
+.news {
+    height: 120px;
+}
+.news-label {
+    height: 55px;
+}
+.news-label>li {
+    float: left;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 28px;
+    margin-left: 28px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.news-text>span {
+    display: inline-block;
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-right: 20px;
+    width: 130px;
+    font-size: 15px;
+}
+.luntan {
+    border-bottom: solid #ff411f;
+}
+
+.function {
+    height: 300px;
+}
+.function-label {
+    height: 98px;
+    margin-top: 20px;
+}
+.function-label>li {
+    float: left;
+    width: 90px;
+    height: 100px;
+    text-align: center;
+    line-height: 820%;
+}
+.hua {
+    border-top: solid #f84409 1px;
+    border-left: solid #f84409 1px;
+    border-right: solid #f84409 1px;
+    color: #f84409;
+}
+.ahua {
+    border-bottom: solid #f84409 1px;
+}
+
+.function-detail>li {
+    float: left;
+    margin-top: 10px;
+    margin-left: 28px;
+}
+.fd-label {
+    color: #f84409;
+}
+.f-text {
+    margin-left: 20px;
+    margin-top: 45px;
+}
+.f-text>input {
+    width: 240px;
+    height: 30px;
+}
+.price {
+    margin-top: 8px;
+    margin-left: 22px;
+}
+.price>span {
+    color: #e26304;
+    font-size: 20px;
+}
+.f-b {
+    margin-top: 6px;
+    margin-left: 18px;
+    background-color: #e26304;
+    width: 85px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    color: white;
+}

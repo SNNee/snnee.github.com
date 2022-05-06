@@ -1,0 +1,121 @@
+.g-index {
+    position: relative;
+}
+  
+.m-list {
+    border: 1px solid #333;
+    padding: 25px 20px 20px 20px;
+    width: 280px;
+}
+  
+.u-pic {
+    display: inline-block;
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid #333;
+    background: #999;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+}
+  
+.u-box {
+    position: absolute;
+    top: 10px;
+    left: 90px;
+    border: 1px solid #333;
+    height: 140px;
+    width: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.u-box .u-pic {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+}
+  
+.hide {
+    display: none;
+}
+
+.m-nav {
+    display: flex;
+  }
+  
+  .u-tab {
+    height: 30px;
+    width: 60px;
+    border: 1px solid #333;
+  }
+  
+  .u-tab.focus {
+    background: #999;
+  }
+  
+  .g-bd {
+    border: 1px solid #333;
+    width: 400px;
+  }
+  
+  .m-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 300px;
+  }
+  
+  .m-content.hide {
+    display: none;
+  } 
+
+  .m-manage {
+    border: 1px solid #333;
+    height: 250px;
+    width: 380px;
+    padding: 20px 10px;
+    position: relative;
+  }
+  
+  .u-content {
+    display: flex;
+    border: 1px solid #333;
+    height: 35px;
+    margin-top: 10px;
+  }
+  
+  .u-no {
+    border-right: 1px solid #333;
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  
+  .u-info {
+    width: 290px;
+  }
+  
+  .u-del {
+    border-left: 1px solid #333;
+    text-align: center;
+    width: 65px;
+    line-height: 35px;
+  }
+  
+  .u-add {
+    height: 35px;
+    width: 95px;
+    border: 1px solid #333;
+    background: #339966;
+    color: #fff;
+    text-align: center;
+    line-height: 35px;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
